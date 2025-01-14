@@ -1,0 +1,336 @@
+/* Estilos básicos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6a4c9c;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Header (sección de bienvenida) */
+.hero {
+    background-image: url('img/IMG-20241121-WA0004.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Sección de Apoyo Emocional */
+#apoyo {
+    background-color: #e8d0f1;
+    padding: 30px 0;
+}
+
+#apoyo ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#apoyo li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.frase-animada {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #6a4c9c;
+}
+
+/* Sección de Frases de Amor */
+#frases {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+#frases p {
+    font-size: 1.5rem;
+    color: #d34f6e;
+    margin-bottom: 15px;
+}
+
+/* Sección de Siempre Juntos */
+#siempre-juntos {
+    background-color: #f2e6f9;
+    padding: 30px 0;
+}
+
+#siempre-juntos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#siempre-juntos li {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+#siempre-juntos p {
+    font-size: 1.2rem;
+}
+
+/* Sección de Frases para Emociones */
+#emociones {
+    background-color: #f2e6f9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#emociones select {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #6a4c9c;
+    border-radius: 5px;
+}
+
+#frase-emocion {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #6a4c9c;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #6a4c9c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+/* Estilo para la sección de "Te Amo en Diferentes Idiomas" */
+#te-amo-lenguajes {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#te-amo-lenguajes h2 {
+    font-size: 2rem;
+    color: #6a4c9c;
+    margin-bottom: 20px;
+}
+
+#idiomas-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#idiomas-lista li {
+    font-size: 1.2rem;
+    color: #6a4c9c;
+    margin: 10px 0;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+
+#idiomas-lista li:hover {
+    color: #d34f6e;
+    cursor: pointer;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #6a4c9c;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la sección de "Te Amo en Diferentes Idiomas" */
+#te-amo-lenguajes h2 {
+    color: #6a4c9c;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#idiomas-lista {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#idiomas-lista li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #6a4c9c;
+    font-style: italic;
+}
+
+/* Estilo de la sección de Playlist */
+#playlist {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #6a4c9c;
+}
+
+#playlist h2 {
+    font-size: 2rem;
+    color: #6a4c9c;
+    margin-bottom: 20px;
+}
+
+#playlist iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #6a4c9c;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+/* Estilo de la sección de WhatsApp */
+#whatsapp {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-top: 2px solid #6a4c9c;
+}
+
+#whatsapp h2 {
+    font-size: 2rem;
+    color: #6a4c9c;
+    margin-bottom: 20px;
+}
+
+#whatsapp p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#whatsapp-btn {
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#whatsapp-btn img {
+    margin-right: 10px;
+}
+
+#whatsapp-btn:hover {
+    background-color: #128C7E; /* Color más oscuro cuando se pasa el mouse */
+}
+
+footer {
+    text-align: center;
+    background-color: #6a4c9c;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+    /* Estilo de la sección de mensaje personalizado */
+#mensaje-personal {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #6a4c9c;
+}
+
+#mensaje-personal h2 {
+    font-size: 2rem;
+    color: #6a4c9c;
+    margin-bottom: 20px;
+}
+
+#mensaje-personal p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+}
+
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
